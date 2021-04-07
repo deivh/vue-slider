@@ -15,10 +15,10 @@
     </head>
     <body>
         <div id="app" class="container">
-           <div>
+           <div class="box">
                 <i class="fas fa-angle-left" v-on:click="removeClick"></i>            
-                <img  :src="img" alt="">
-                <i class="fas fa-angle-right" v-on:click="getClick"></i>
+                <img  :src="images[cont]" alt="">
+                <i class="fas fa-angle-right" v-on:click="getClick" v-on:click="slider"></i>
             </div>         
         </div>
     </body>

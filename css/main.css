@@ -22,3 +22,15 @@ img {
     height: auto;
     margin: auto;
 }
+div.box {
+    display: flex;
+}
+div i {
+    font-size: 30px;
+    flex-direction: column;
+    align-self: center;
+    margin: 30px;
+}
+div i:hover {
+    color: brown;
+}
