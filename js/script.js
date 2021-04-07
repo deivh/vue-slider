@@ -24,6 +24,12 @@ function initVue() {
                 console.log(this.cont);
                 this.cont = this.cont >= this.images.length  ? 0 : this.cont = this.cont
                  return this.cont;
+             },
+             removeClick: function() {
+                this.cont  -= 1;
+                console.log(this.cont);
+                this.cont = this.cont < 0  ? 5 : this.cont = this.cont
+                 return this.cont;
              }
     }});
 }
